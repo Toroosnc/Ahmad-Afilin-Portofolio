@@ -1,0 +1,111 @@
+proyek
+<!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Proyek Saya</h2>
+            <p class="section-subtitle" data-aos="fade-up">Beberapa proyek yang telah saya kerjakan</p>
+
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="app">Aplikasi</button>
+                <button class="filter-btn" data-filter="design">UI/UX</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/projects/ecommerce.jpg" alt="TokoBatik E-commerce">
+                    </div>
+                    <div class="project-info">
+                        <h3>TokoBatik - E-commerce</h3>
+                        <p>Platform e-commerce khusus batik Indonesia dengan fitur lengkap.</p>
+                        <div class="project-tags">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="assets/images/projects/weather-app.jpg" alt="WeatherNow App">
+                    </div>
+                    <div class="project-info">
+                        <h3>WeatherNow - Cuaca</h3>
+                        <p>Aplikasi cuaca real-time dengan tampilan menarik.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>API</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/projects/hospital-system.jpg" alt="MediCare System">
+                    </div>
+                    <div class="project-info">
+                        <h3>MediCare - Rumah Sakit</h3>
+                        <p>Sistem manajemen rumah sakit online.</p>
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="assets/images/projects/food-app.jpg" alt="Foodie UI Design">
+                    </div>
+                    <div class="project-info">
+                        <h3>Foodie - UI Design</h3>
+                        <p>Desain UI/UX aplikasi pesan antar makanan.</p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="assets/images/projects/task-manager.jpg" alt="TaskFlow App">
+                    </div>
+                    <div class="project-info">
+                        <h3>TaskFlow - Manajemen</h3>
+                        <p>Aplikasi manajemen tugas harian.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/projects/portfolio-template.jpg" alt="Portfolio Template">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>Template portfolio modern untuk developer.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

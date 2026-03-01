@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Afilin - Portfolio</title>
+    <link rel="icon" type="image/png" href="My.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Ahmad Afilin.</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#certificates">Sertifikat</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Kiri: Teks -->
+            <div class="hero-content" data-aos="fade-right">
+                <p class="hero-subtitle">
+                    <span class="wave">👋</span> Halo, saya
+                </p>
+                
+                <h1 class="hero-title">
+                    Ahmad Afilin
+                </h1>
+                
+                <div class="hero-role">
+                    <span class="static-text">Saya seorang</span>
+                    <span class="dynamic-text" id="typing-text"></span>
+                </div>
+                
+                <p class="hero-description">
+                    Computer Scientist dengan pengalaman 1+ tahun dalam riset algoritma, 
+                    sistem komputasi, dan aplikasi AI/ML, dan menjadi mahasiswa di <strong>Surakarta</strong>.
+                </p>
+                
+                <!-- Statistik (CLIENT DIHAPUS) -->
+                <div class="hero-highlights">
+                    <div class="highlight">
+                        <span class="highlight-number">0</span>
+                        <span class="highlight-label">Proyek</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">1+</span>
+                        <span class="highlight-label">Tahun</span>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-number">2</span>
+                        <span class="highlight-label">Sertifikat</span>
+                    </div>
+                </div>
+                
+                <!-- Tombol -->
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hubungi Saya
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code-branch"></i> Lihat Proyek
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Kanan: Gambar Profile -->
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-wrapper">
+                    <img src="assets/images/profile/foto-ahmad.jpg" alt="Ahmad Afilin" class="profile-img">
+                    
+                    <div class="experience-badge">
+                        <i class="fas fa-medal"></i>
+                        <div class="badge-text">
+                            <span class="badge-number">1+ Tahun</span>
+                            <span class="badge-label">Pengalaman</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-badge">
+                        <i class="fas fa-rocket"></i>
+                        <div class="badge-text">
+                            <span class="badge-number">0</span>
+                            <span class="badge-label">Proyek</span>
+                        </div>
+                    </div>
+                    
+                    <!-- CLIENT BADGE DIHAPUS -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Down -->
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-link">
+                <span class="scroll-text">Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Judul -->
+            <h2 class="section-title" data-aos="fade-up">Tentang Saya</h2>
+            <p class="section-subtitle" data-aos="fade-up">Kenali saya lebih dekat</p>
+            
+            <div class="about-content">
+                <!-- Kiri: Gambar -->
+                <div class="about-left" data-aos="fade-right">
+                    <img src="assets/images/profile/foto-ahmad.jpg" alt="Ahmad Afilin" class="about-img">
+                </div>
+                
+                <!-- Kanan: Teks -->
+                <div class="about-right" data-aos="fade-left">
+                    <h3 class="about-name">Ahmad Afilin</h3>
+                    <p class="about-role">Computer Scientist</p>
+                    
+                    <p class="about-paragraph">
+                        Saya memulai perjalanan di dunia pemrograman sejak 2025. Selama 1+ tahun terakhir, 
+                        saya telah mengerjakan beberapa proyek...
+                    </p>
+                    <p class="about-paragraph">
+                        Saya percaya bahwa saya bisa mencapai impian saya dengan terus belajar dan berusaha.
+                    </p>
+                    
+                    <!-- Informasi Personal -->
+                    <div class="personal-info">
+                        <h4><i class="fas fa-user"></i> Informasi Personal</h4>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Nama Lengkap:</span>
+                                <span class="info-value">Ahmad Afilin</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Domisili:</span>
+                                <span class="info-value">Tulungagung</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">ahmadafilinbuss@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Status:</span>
+                                <span class="info-value status-available">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hobi -->
+                    <div class="interests">
+                        <h4><i class="fas fa-heart"></i> Hobi Saya</h4>
+                        <div class="interests-list">
+                            <span class="interest-tag"><i class="fas fa-camera"></i> Fotografi</span>
+                            <span class="interest-tag"><i class="fas fa-book"></i> Membaca</span>
+                            <span class="interest-tag"><i class="fas fa-music"></i> Musik</span>
+                            <span class="interest-tag"><i class="fas fa-dumbbell"></i> Fitness</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pendidikan -->
+            <div class="education-section" data-aos="fade-up">
+                <h3><i class="fas fa-graduation-cap"></i> Pendidikan</h3>
+                
+                <div class="education-grid">
+                    <!-- Pendidikan 1 -->
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-detail">
+                            <h4>D3 Teknik Informatika</h4>
+                            <p class="education-school">Universitas Sebelas Maret</p>
+                            <p class="education-year">2025 - 2028</p>
+                            <p class="education-gpa">IPK: 3.55/4.00</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Pendidikan 2 -->
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-detail">
+                            <h4>Informatika</h4>
+                            <p class="education-school">SMA Negeri 1 Ngunut</p>
+                            <p class="education-year">2022 - 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Proyek Saya</h2>
+            <p class="section-subtitle" data-aos="fade-up">Proyek saya belum pernh membuat</p>
+
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+            </div>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sertifikat</h2>
+            <p class="section-subtitle" data-aos="fade-up">Sertifikat yang telah saya raih</p>
+
+            <div class="certificates-grid">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/certificates/Python_Essentials_1_certificate.jpg" alt="Python Essentials 1 Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Cisco Networking Academy Python Essentials 1</h3>
+                        <p class="certificate-issuer">Cisco Networking Academy | Python INSTITUTE</p>
+                        <p class="certificate-description">
+                            Sertifikat menyelesaikan Python Essentials 1, yang mencakup dasar-dasar pemrograman Python, struktur data, dan konsep OOP.
+                        </p>
+                        <div class="certificate-skills">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="assets/images/certificates/Operating_Systems_Basics_certificate.jpg" alt="Operating Systems Basics Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Operating Systems Basics</h3>
+                        <p class="certificate-issuer">Cisco Networking Academy</p>
+                        <p class="certificate-description">
+                            Sertifikat menyelesaikan Operating Systems Basics, yang mencakup konsep dasar sistem operasi, manajemen proses, dan manajemen memori.
+                        </p>
+                        <div class="certificate-skills">
+                            <span>Operating Systems</span>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Keahlian</h2>
+    <p class="section-subtitle" data-aos="fade-up">Teknologi & Skill</p>
+
+    <div class="skills-categories">
+      <!-- Category 1: Programming Languages -->
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Bahasa Pemrograman</h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Python</span>
+              <span>70%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>C/C++</span>
+              <span>65%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Java</span>
+              <span>60%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 60%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 2: Tools & Scientific -->
+      <div class="skill-category">
+        <h3><i class="fas fa-tools"></i> Tools & Scientific Computing</h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>MATLAB</span>
+              <span>60%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Git & GitHub</span>
+              <span>70%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Linux / CLI</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%;"></div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Hubungi Saya</h2>
+            <p class="section-subtitle" data-aos="fade-up">Silakan hubungi saya untuk kerjasama</p>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h3>Lokasi</h3>
+                                <p>Tulungagung, Jawa Timur, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h3>Email</h3>
+                                <p>ahmadafilinbuss@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h3>Telepon</h3>
+                                <p>+6285732302325</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Media Sosial</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/Toroosnc" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ahmad-afilin-a5665a366/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/toroowa/" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://x.com/Neotraaaa" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ahmad Afilin. Dibuat dengan dari Surakarta</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
